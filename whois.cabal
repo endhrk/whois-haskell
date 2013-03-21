@@ -2,7 +2,7 @@
 --  see http://haskell.org/cabal/users-guide/
 
 name:                whois
-version:             0.2.0.0
+version:             0.2.1.0
 synopsis:            whois library.
 description:         whois library.
 homepage:            https://github.com/endhrk/whois-haskell
@@ -18,7 +18,7 @@ cabal-version:       >=1.8
 library
   exposed-modules:     Network.Whois
   -- other-modules:       
-  build-depends:       base ==4.5.*, network ==2.3.*, iconv ==0.4.*, bytestring ==0.9.*, utf8-string ==0.3.*
+  build-depends:       base ==4.5.*, network ==2.3.*, iconv ==0.4.*, bytestring >= 0.10, utf8-string ==0.3.*
 
 source-repository head
   type:                git
